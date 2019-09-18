@@ -1,0 +1,36 @@
+1 A . "The .gitignore file " is a text file that tells Git which files or folders to ignore in a project. A local .gitignore file is usually placed in the root directory of a project.
+
+Following are .gitignore files in my project
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+2 A. Fast forward :
+In Git, to "fast forward" means to update the HEAD pointer such that its new value is a direct descendant of the previous value. In other words, the previous value is a parent, or grandparent, or grandgrandparent.
+If Master has not diverged, instead of creating a new commit, git will just point master to the latest commit of the feature branch. This is a “fast forward.” There won't be any "merge commit" in fast-forwarding merge.
+
+3 A. Generally, the main purpose of branching (a VCS - Version Control System - feature) is to get code isolation. You have at least one branch, which can be enough for sequential development, and is used for many tasks being recording (committed) on that same unique branch.It also helps in parallel development and creation.
+
+4. A. Multiple remote repositories can be used but only one origin exists.
+
